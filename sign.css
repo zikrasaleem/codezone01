@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+  }
+   
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*sign up*/
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    /*background-color: white;*/
+    background: url('02.png');
+    background-size: cover;
+   
+}
+.mid-box{
+    width: 1000px;
+    height: 80vh;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    background-color: #ffffff09;
+}
+
+.mid-box h1{
+    color: white;
+    text-align: left;
+    font-size: 4em;
+    margin-top: 10%;
+    line-height: 1px;
+}
+
+.register a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 30px;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    align-items: left;
+    background: rgb(212, 105, 212);
+    border-radius: 30px;
+    transition: 0.4s;
+    }
+    .register a:hover{
+    background: white;
+    border: 3px solid rgb(212, 105, 212);
+    color: black;
+    }
+
+
+.inner-box{
+    float: right;
+    position: fixed;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 5%;
+    right: 3%;
+    transform: translateY(-50%);
+    padding: 20px 50px;
+    background-color: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    background-color: #ffffff09;
+}
+
+.signup-header h1{
+    font-size: 2.5rem;
+   /* color: black;*/
+   color: white;
+   text-align: center;
+}
+
+.signup-header p{
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.signup-body{
+    margin: 20px 0;
+}
+
+.signup-body p{
+    margin: 20px 0;
+}
+
+.signup-body p label{
+    display: block;
+    color: white;
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: blur(8px);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+    background-color: #ffffff09;
+    color: white;
+}
+.signup-body p input[type="submit"]{
+    width: 108%;
+    background-color: rgb(212, 105, 212);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover{
+    background-color: rgb(212, 105, 212);
+}
+
+.signup-footer p{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.signup-footer p a{
+    color: #2172a8;
+}
+/*END OF SIGN UP*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
